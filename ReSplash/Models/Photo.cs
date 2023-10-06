@@ -1,5 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Microsoft.EntityFrameworkCore;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace ReSplash.Models
 {
@@ -7,24 +7,21 @@ namespace ReSplash.Models
     {
         public int PhotoId { get; set; }
 
+        [DisplayName("File Name")]
         public string FileName { get; set; } = string.Empty;
 
         [DataType(DataType.DateTime)]
         public DateTime PublishDate { get; set; }
 
-        public int NumViews { get; set; }
-
-        public int NumDownloads { get; set; }
-
         public string Description { get; set; } = string.Empty;
 
-        User User { get; set; } = new User();
+        public int ImageViews { get; set; }
 
-        // List<Tag> PhotoTags
-        // Category
+        public int ImageDownloads { get; set; }
+
+        public string Location { get; set; } = string.Empty;
+
+        public User User { get; set; } = new(); 
 
     }
 }
-
-// nuget entityframework...sqlserver
-// nuget entityframework...tools

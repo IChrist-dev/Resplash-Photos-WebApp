@@ -26,13 +26,13 @@
                 @Html.DisplayNameFor(model => model.User[0].Password)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.User[0].Location)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.User[0].AvailableForHire)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.User[0].UserType)
+                @Html.DisplayNameFor(model => model.User[0].Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User[0].Bio)
             </th>
             <th></th>
         </tr>
@@ -53,13 +53,13 @@
                 @Html.DisplayFor(modelItem => item.Password)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Location)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.AvailableForHire)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.UserType)
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bio)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.UserId">Edit</a> |

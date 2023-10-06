@@ -5,11 +5,12 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>My Photos</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create" class="btn btn-outline-dark">Create New</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
@@ -20,13 +21,16 @@
                 @Html.DisplayNameFor(model => model.Photos[0].PublishDate)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Photos[0].NumViews)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Photos[0].NumDownloads)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.Photos[0].Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photos[0].ImageViews)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photos[0].ImageDownloads)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photos[0].Location)
             </th>
             <th></th>
         </tr>
@@ -41,17 +45,19 @@
                 @Html.DisplayFor(modelItem => item.PublishDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.NumViews)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NumDownloads)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.ImageViews)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageDownloads)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Location)
+            </td>
+            <td>
                 <a asp-page="./Edit" asp-route-id="@item.PhotoId">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.PhotoId">Details</a> |
                 <a asp-page="./Delete" asp-route-id="@item.PhotoId">Delete</a>
             </td>
         </tr>

@@ -12,7 +12,7 @@ using ReSplash.Data;
 namespace ReSplash.Migrations
 {
     [DbContext(typeof(ReSplashContext))]
-    [Migration("20231003131144_InitialCommit")]
+    [Migration("20231006171427_InitialCommit")]
     partial class InitialCommit
     {
         /// <inheritdoc />
@@ -41,16 +41,25 @@ namespace ReSplash.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("NumDownloads")
+                    b.Property<int>("ImageDownloads")
                         .HasColumnType("int");
 
-                    b.Property<int>("NumViews")
+                    b.Property<int>("ImageViews")
                         .HasColumnType("int");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("PublishDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("PhotoId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Photo");
                 });
@@ -65,6 +74,10 @@ namespace ReSplash.Migrations
 
                     b.Property<bool>("AvailableForHire")
                         .HasColumnType("bit");
+
+                    b.Property<string>("Bio")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -86,16 +99,28 @@ namespace ReSplash.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("UserType")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("UserId");
 
                     b.HasIndex("Email")
                         .IsUnique();
 
                     b.ToTable("User");
+                });
+
+            modelBuilder.Entity("ReSplash.Models.Photo", b =>
+                {
+                    b.HasOne("ReSplash.Models.User", "User")
+                        .WithMany("Photos")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ReSplash.Models.User", b =>
+                {
+                    b.Navigation("Photos");
                 });
 #pragma warning restore 612, 618
         }

@@ -13,7 +13,7 @@ namespace ReSplash.Pages.Photos
     public class IndexModel : PageModel
     {
         private readonly ReSplash.Data.ReSplashContext _context;
-
+        
         public IList<Photo> Photos { get; set; } = default!;
 
         public IndexModel(ReSplash.Data.ReSplashContext context)

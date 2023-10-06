@@ -43,6 +43,13 @@ namespace ReSplash.Pages.Photos
         // For more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
+            User? user = _context.User.Where(u => u.UserId == 1).SingleOrDefault();
+
+            if (user != null)
+            {
+                Photo.User = user;
+            }
+
             if (!ModelState.IsValid)
             {
                 return Page();

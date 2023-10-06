@@ -5,49 +5,35 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Edit Photo</h1>
 
-<h4>Photo</h4>
-<hr />
 <div class="row">
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Photo.PhotoId" />
-            <div class="form-group">
-                <label asp-for="Photo.FileName" class="control-label"></label>
-                <input asp-for="Photo.FileName" class="form-control" />
-                <span asp-validation-for="Photo.FileName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Photo.PublishDate" class="control-label"></label>
-                <input asp-for="Photo.PublishDate" class="form-control" />
-                <span asp-validation-for="Photo.PublishDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Photo.NumViews" class="control-label"></label>
-                <input asp-for="Photo.NumViews" class="form-control" />
-                <span asp-validation-for="Photo.NumViews" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Photo.NumDownloads" class="control-label"></label>
-                <input asp-for="Photo.NumDownloads" class="form-control" />
-                <span asp-validation-for="Photo.NumDownloads" class="text-danger"></span>
-            </div>
-            <div class="form-group">
+            <input type="hidden" asp-for="Photo.FileName" />
+            <input type="hidden" asp-for="Photo.PublishDate" />
+            <input type="hidden" asp-for="Photo.ImageViews" />
+            <input type="hidden" asp-for="Photo.ImageDownloads" />
+                        
+            <div class="mb-3">
                 <label asp-for="Photo.Description" class="control-label"></label>
                 <input asp-for="Photo.Description" class="form-control" />
                 <span asp-validation-for="Photo.Description" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            
+            <div class="mb-3">
+                <label asp-for="Photo.Location" class="control-label"></label>
+                <input asp-for="Photo.Location" class="form-control" />
+                <span asp-validation-for="Photo.Location" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <input type="submit" value="Save" class="btn btn-primary" /> &nbsp;&nbsp;
+                <a asp-page="./Index" class="btn btn-outline-dark">Cancel</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-page="./Index">Back to List</a>
 </div>
 
 @section Scripts {
