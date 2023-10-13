@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using ReSplash.Data;
 using ReSplash.Models;
 
-namespace ReSplash.Pages.Photos
+namespace ReSplash.Pages.Categories
 {
     public class DeleteModel : PageModel
     {
@@ -20,40 +20,40 @@ namespace ReSplash.Pages.Photos
         }
 
         [BindProperty]
-        public Photo Photo { get; set; } = default!;
+      public Category Category { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.Photo == null)
+            if (id == null || _context.Category == null)
             {
                 return NotFound();
             }
 
-            var photo = await _context.Photo.FirstOrDefaultAsync(m => m.PhotoId == id);
+            var category = await _context.Category.FirstOrDefaultAsync(m => m.CategoryId == id);
 
-            if (photo == null)
+            if (category == null)
             {
                 return NotFound();
             }
             else 
             {
-                Photo = photo;
+                Category = category;
             }
             return Page();
         }
 
         public async Task<IActionResult> OnPostAsync(int? id)
         {
-            if (id == null || _context.Photo == null)
+            if (id == null || _context.Category == null)
             {
                 return NotFound();
             }
-            var photo = await _context.Photo.FindAsync(id);
+            var category = await _context.Category.FindAsync(id);
 
-            if (photo != null)
+            if (category != null)
             {
-                Photo = photo;
-                _context.Photo.Remove(Photo);
+                Category = category;
+                _context.Category.Remove(Category);
                 await _context.SaveChangesAsync();
             }
 

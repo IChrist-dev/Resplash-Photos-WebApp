@@ -13,7 +13,7 @@ namespace ReSplash.Pages.Photos
     public class CreateModel : PageModel
     {
         private readonly ReSplash.Data.ReSplashContext _context;
-        private readonly IWebHostEnvironment _env;
+        IWebHostEnvironment _env;
 
         [BindProperty]
         public Photo Photo { get; set; } = default!;
@@ -21,10 +21,24 @@ namespace ReSplash.Pages.Photos
         [BindProperty]
         public IFormFile ImageUpload { get; set; } = null!;
 
+        public List<SelectListItem> CategoryList { get; set; } = new();
+
+
         public CreateModel(ReSplashContext context, IWebHostEnvironment env)
         {
             _context = context;
-            _env = env; 
+            _env = env;
+
+            List<Category> _categories = _context.Category.ToList();
+            foreach (Category category in _categories)
+            {
+                CategoryList.Add(new SelectListItem()
+                {
+                    Value = category.CategoryId.ToString(),
+                    Text = category.CategoryName
+                });
+            }
+
         }
 
         public IActionResult OnGet()
@@ -46,12 +60,17 @@ namespace ReSplash.Pages.Photos
                 Photo.User = user;
             }
 
+            // Make a unique image name
             string imageName = DateTime.Now.ToString("yyyy_MM_dd_hh_mm_ss-") + ImageUpload.FileName;
 
             Photo.FileName = imageName;
             Photo.PublishDate = DateTime.Now;
             Photo.ImageViews = 0;
             Photo.ImageDownloads = 0;
+
+            // Get and set the Category - get the category from the database and attach to this photo
+            Category category = _context.Category.Single(m => m.CategoryId == Photo.Category.CategoryId);
+            Photo.Category = category;
 
             // Validate model
             if (!ModelState.IsValid || _context.Photo == null || Photo == null)
@@ -64,7 +83,7 @@ namespace ReSplash.Pages.Photos
             await _context.SaveChangesAsync();
 
             // Save image file, assuming successful insertion to DB
-            var file = Path.Combine(_env.ContentRootPath, "wwwroot\\images\\", imageName);
+            string file = Path.Combine(_env.ContentRootPath, "wwwroot\\photos\\", imageName);
 
             using (FileStream filestream = new FileStream(file, FileMode.Create))
             {

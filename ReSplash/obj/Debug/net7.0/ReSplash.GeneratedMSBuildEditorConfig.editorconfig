@@ -9,73 +9,93 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ReSplash
 build_property.RootNamespace = ReSplash
-build_property.ProjectDir = C:\Users\W0480449\source\repos\photos-in-class-project-IChrist-dev\ReSplash\
+build_property.ProjectDir = C:\Users\Ian\source\repos\photos-in-class-project-IChrist-dev\ReSplash\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\W0480449\source\repos\photos-in-class-project-IChrist-dev\ReSplash
+build_property.MSBuildProjectDirectory = C:\Users\Ian\source\repos\photos-in-class-project-IChrist-dev\ReSplash
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Error.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Index.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Photos/Create.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Photos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGhvdG9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Photos/Delete.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Photos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGhvdG9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Photos/Edit.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Photos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGhvdG9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Photos/Index.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Photos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGhvdG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Privacy.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Users/Create.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Users/Delete.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Users/Details.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Users/Edit.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Users/Index.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/_ViewImports.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/_ViewStart.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/W0480449/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Shared/_Layout.cshtml]
+[C:/Users/Ian/source/repos/photos-in-class-project-IChrist-dev/ReSplash/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-plevu8l3rn

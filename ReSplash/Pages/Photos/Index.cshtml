@@ -32,17 +32,19 @@
             <th>
                 @Html.DisplayNameFor(model => model.Photos[0].Location)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Photos[0].Category.CategoryName)
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model.Photos) {
-        string imagePath = "~/photos/" + item.FileName;
-
+        string imagePath = "/photos/" + item.FileName;
 
         <tr>
             <td>
-                <img src="@imagePath" class="img-fluid thumbnail">
+                <img src="@imagePath" class="img-fluid thumbnail" alt="User submitted photo">
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PublishDate)
@@ -59,6 +61,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Location)
             </td>
+            <th>
+                @Html.DisplayFor(modelItem => item.Category.CategoryName)
+            </th>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.PhotoId">Edit</a> |
                 <a asp-page="./Delete" asp-route-id="@item.PhotoId">Delete</a>

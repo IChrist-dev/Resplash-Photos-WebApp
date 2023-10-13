@@ -17,5 +17,7 @@ namespace ReSplash.Data
         public DbSet<ReSplash.Models.Photo> Photo { get; set; } = default!;
 
         public DbSet<ReSplash.Models.User> User { get; set; } = default!;
+
+        public DbSet<ReSplash.Models.Category> Category { get; set; } = default!;
     }
 }

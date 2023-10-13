@@ -7,8 +7,11 @@
 
 <h1>Are you sure you want to delete this?</h1>
 
+@{
+    string imagePath = "/photos/" + Model.Photo.FileName;
+}
 <p>
-    IMAGE GOES HERE
+    <img src="@imagePath" class="img-fluid thumbnail" alt="User submitted photo" />
 </p>
 
 <form method="post">

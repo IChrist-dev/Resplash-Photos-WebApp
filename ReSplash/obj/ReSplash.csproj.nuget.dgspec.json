@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj": {}
+    "C:\\Users\\Ian\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj": {}
   },
   "projects": {
-    "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj": {
+    "C:\\Users\\Ian\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
+        "projectUniqueName": "C:\\Users\\Ian\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
         "projectName": "ReSplash",
-        "projectPath": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
-        "packagesPath": "C:\\Users\\W0480449\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\obj\\",
+        "projectPath": "C:\\Users\\Ian\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
+        "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ian\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\W0480449\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.grapecity.com/nuget": {}
         },
         "frameworks": {
           "net7.0": {
@@ -48,7 +48,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.12, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
