@@ -24,3 +24,45 @@ body {
 .thumbnail {
     width: 200px;
 }
+
+/*Home page banner image*/
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/photos/banner_image.jpg");
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/*Home page image grid layout*/
+.pin-container {
+    width: 100%;
+    margin: 20px auto;
+    columns: 3;
+    column-gap: 20px
+}
+
+.pin-container .pin-box {
+    width: 100%;
+    margin-bottom: 20px;
+    break-inside: avoid;
+    position: relative;
+}
+
+.pin-container .pin-box img {
+    max-width: 100%;
+}
+
+@media (max-width: 922px) {
+    .pin-container {
+        columns: 2;
+    }
+}
+
+@media (max-width: 562px) {
+    .pin-container {
+        columns: 1;
+    }
+}

@@ -12,14 +12,15 @@ namespace ReSplash.Models
         public string FileName { get; set; } = string.Empty;
 
         [DataType(DataType.DateTime)]
+        [DisplayName("Publish Date")]
         public DateTime PublishDate { get; set; }
 
         public string Description { get; set; } = string.Empty;
 
-        [DisplayName("Image Views")]
+        [DisplayName("Views")]
         public int ImageViews { get; set; }
 
-        [DisplayName("Image Downloads")]
+        [DisplayName("Downloads")]
         public int ImageDownloads { get; set; }
 
         public string Location { get; set; } = string.Empty;

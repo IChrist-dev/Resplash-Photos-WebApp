@@ -13,9 +13,9 @@ namespace ReSplash.Pages.Photos
 {
     public class EditModel : PageModel
     {
-        private readonly ReSplash.Data.ReSplashContext _context;
+        private readonly ReSplashContext _context;
 
-        public EditModel(ReSplash.Data.ReSplashContext context)
+        public EditModel(ReSplashContext context)
         {
             _context = context;
         }

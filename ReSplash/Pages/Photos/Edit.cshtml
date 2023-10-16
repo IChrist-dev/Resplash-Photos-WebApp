@@ -3,9 +3,20 @@
 
 @{
     ViewData["Title"] = "Edit";
+    string imagePath = "~/photos/" + Model.Photo.FileName;
 }
 
 <h1>Edit Photo</h1>
+
+<br />
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="@Url.Content(imagePath)" class="img-fluid" alt="User submitted photo" />
+    </div>
+</div>
+
+<br />
 
 <div class="row">
     <div class="col-md-4">
