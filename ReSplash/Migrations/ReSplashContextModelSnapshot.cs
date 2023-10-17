@@ -83,6 +83,38 @@ namespace ReSplash.Migrations
                     b.ToTable("Photo");
                 });
 
+            modelBuilder.Entity("ReSplash.Models.PhotoTag", b =>
+                {
+                    b.Property<int>("PhotoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TagId")
+                        .HasColumnType("int");
+
+                    b.HasKey("PhotoId", "TagId");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("PhotoTag");
+                });
+
+            modelBuilder.Entity("ReSplash.Models.Tag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("TagName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tag");
+                });
+
             modelBuilder.Entity("ReSplash.Models.User", b =>
                 {
                     b.Property<int>("UserId")
@@ -145,9 +177,33 @@ namespace ReSplash.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("ReSplash.Models.PhotoTag", b =>
+                {
+                    b.HasOne("ReSplash.Models.Photo", "Photo")
+                        .WithMany("PhotoTags")
+                        .HasForeignKey("PhotoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ReSplash.Models.Tag", "Tag")
+                        .WithMany()
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Photo");
+
+                    b.Navigation("Tag");
+                });
+
             modelBuilder.Entity("ReSplash.Models.Category", b =>
                 {
                     b.Navigation("Photos");
+                });
+
+            modelBuilder.Entity("ReSplash.Models.Photo", b =>
+                {
+                    b.Navigation("PhotoTags");
                 });
 
             modelBuilder.Entity("ReSplash.Models.User", b =>

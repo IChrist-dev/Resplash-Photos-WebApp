@@ -31,6 +31,11 @@
             </div>
 
             <div class="mb-3">
+                <label for="Tags">Tags (comma-separated)</label>
+                <input asp-for="strTags" class="form-control" />
+            </div>
+
+            <div class="mb-3">
                 <label asp-for="Photo.Category.CategoryId" class="control-label"></label>
                 <select asp-for="Photo.Category.CategoryId" asp-items="Model.CategoryList" class="form-control">
                     <option value="">-- Select --</option>

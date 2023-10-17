@@ -11203,6 +11203,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Microsoft.EntityFrameworkCore >= 7.0.12",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.12",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.9"
@@ -11214,11 +11215,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
+      "projectUniqueName": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
       "projectName": "ReSplash",
-      "projectPath": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
+      "projectPath": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
       "packagesPath": "C:\\Users\\W0480449\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\obj\\",
+      "outputPath": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\W0480449\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11247,6 +11248,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.12, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[7.0.11, )"

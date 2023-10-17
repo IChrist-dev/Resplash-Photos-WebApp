@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BD40SetUnmkyiXnPeh2yK/UlYvrAvgUTHhUtnqoB5EXjvE5b4BAyY+R5hc4AX0ccaGRmLEpRyeL1OwWbDlDV4Q==",
+  "dgSpecHash": "7FtfOD19QO4nQjR5zR7C9jx0fhgYaTOpSujIRIZo/KtAnUiD8TYTGqEv7hBKvOPV0ldXnLFrtYbOx10y4cQ8yA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
+  "projectFilePath": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\W0480449\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\W0480449\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

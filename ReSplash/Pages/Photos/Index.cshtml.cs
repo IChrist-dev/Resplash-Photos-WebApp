@@ -25,7 +25,8 @@ namespace ReSplash.Pages.Photos
         {
             if (_context.Photo != null)
             {
-                Photos = await _context.Photo.ToListAsync();
+                // Include tag info for each photo by doing JOINs
+                Photos = await _context.Photo.Include("Category").Include("PhotoTags").Include("PhotoTags.Tag").OrderByDescending(d => d.PublishDate).ToListAsync();
             }
         }
     }

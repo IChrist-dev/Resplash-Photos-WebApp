@@ -18,6 +18,9 @@
                 @Html.DisplayNameFor(model => model.Photos[0].FileName)
             </th>
             <th>
+                Tags
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Photos[0].PublishDate)
             </th>
             <th>
@@ -42,6 +45,13 @@
         <tr>
             <td>
                 <img src="@imagePath" class="img-fluid thumbnail" alt="User submitted photo">
+            </td>
+            <td>
+                    @foreach (var photoTag in item.PhotoTags)
+                    {
+
+                        <span class="badge badge-pill badge-primary">@photoTag.Tag.TagName</span>
+                    }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PublishDate)
