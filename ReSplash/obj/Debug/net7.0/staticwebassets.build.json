@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "25xyqlHb+80YzMdayU4DDoO6jfVe/Fmvq65sgLOPQbo=",
+  "Hash": "MOfCkEnTOxQ2CM3voVDgjtzxuRdIK1vV3qFT/e/6dlg=",
   "Source": "ReSplash",
   "BasePath": "_content/ReSplash",
   "Mode": "Default",
@@ -1358,6 +1358,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\photos\\2023_10_17_10_13_24-dm-david-fuPZ7GmFB8k-unsplash.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_20_12_42_15-dog.jfif",
+      "SourceId": "ReSplash",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\",
+      "BasePath": "_content/ReSplash",
+      "RelativePath": "photos/2023_10_20_12_42_15-dog.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\2023_10_20_12_42_15-dog.jfif"
     },
     {
       "Identity": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\banner_image.jpg",

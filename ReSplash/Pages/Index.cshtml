@@ -2,19 +2,45 @@
 @model IndexModel
 @{
     ViewData["Title"] = "Home";
-
+    
 }
 
-<div class="pin-container">
+<div class="pin-container"> 
 
     @foreach (var item in Model.Photos)
     {
         string imagePath = "/photos/" + item.FileName;
 
         <div class="pin-box">
-            <img src="@imagePath" class="mb-2" />
+            <img id="image-thumbnail" src="@imagePath" class="mb-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="displayImage(this)" />
         </div>
         
     }
-
 </div>
+
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="imageModalLabel">Image Detail</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                
+                <img id="modal-image" src="" alt="Image" class="img-fluid" />
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function displayImage(image) {
+        var imagePath = image.getAttribute('data-bs-photo');
+        var modalImage = document.getElementById('modal-image');
+        modalImage.src = imagePath;
+    }
+    
+</script>

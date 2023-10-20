@@ -47,27 +47,32 @@
                 <img src="@imagePath" class="img-fluid thumbnail" alt="User submitted photo">
             </td>
             <td>
-                    @foreach (var photoTag in item.PhotoTags)
-                    {
-
-                        <span class="badge badge-pill badge-primary">@photoTag.Tag.TagName</span>
-                    }
+                @foreach (var photoTag in item.PhotoTags)
+                {
+                    <span class="badge rounded-pill bg-secondary no-bold">@photoTag.Tag.TagName</span>
+                }
             </td>
+
             <td>
                 @Html.DisplayFor(modelItem => item.PublishDate)
             </td>
+
             <td>
                 @Html.DisplayFor(modelItem => item.Description)
             </td>
+
             <td>
                 @Html.DisplayFor(modelItem => item.ImageViews)
             </td>
+
             <td>
                 @Html.DisplayFor(modelItem => item.ImageDownloads)
             </td>
+
             <td>
                 @Html.DisplayFor(modelItem => item.Location)
             </td>
+
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.PhotoId">Edit</a> |
                 <a asp-page="./Delete" asp-route-id="@item.PhotoId">Delete</a>

@@ -73,9 +73,7 @@ namespace ReSplash.Pages.Photos
             Photo.ImageViews = 0;
             Photo.ImageDownloads = 0;
 
-            //
             // Get and set the Category - get the category from the database and attach to this photo
-            //
             Category category = _context.Category.Single(m => m.CategoryId == Photo.Category.CategoryId);
             Photo.Category = category;
 
@@ -117,7 +115,7 @@ namespace ReSplash.Pages.Photos
             // Keep a list of the tags that are new
             List<Tag> newPhotoTags = new();
 
-            // Lop through the user's input tags
+            // Loop through the user's input tags
             foreach(string userInputTag in userInputTags)
             {
                 // Trim the tag
