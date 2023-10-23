@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj": {}
+    "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj": {}
   },
   "projects": {
-    "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj": {
+    "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
+        "projectUniqueName": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
         "projectName": "ReSplash",
-        "projectPath": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
+        "projectPath": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\ReSplash.csproj",
         "packagesPath": "C:\\Users\\W0480449\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\obj\\",
+        "outputPath": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\W0480449\\AppData\\Roaming\\NuGet\\NuGet.Config",

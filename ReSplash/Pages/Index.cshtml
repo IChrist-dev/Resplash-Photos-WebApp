@@ -12,7 +12,7 @@
         string imagePath = "/photos/" + item.FileName;
 
         <div class="pin-box">
-            <img id="image-thumbnail" src="@imagePath" class="mb-2" data-bs-toggle="modal" data-bs-target="#imageModal" onclick="displayImage(this)" />
+            <img id="image-thumbnail" src="@imagePath" class="mb-2" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-photo="@imagePath" onclick="displayImage(this)" />
         </div>
         
     }
