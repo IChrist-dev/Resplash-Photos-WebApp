@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,7 @@ using ReSplash.Models;
 
 namespace ReSplash.Pages.Photos
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         private readonly ReSplashContext _context;
@@ -25,8 +27,10 @@ namespace ReSplash.Pages.Photos
         {
             if (_context.Photo != null)
             {
+                int userId = int.Parse(User.Identity.Name);
+
                 // Include tag info for each photo by doing JOINs
-                Photos = await _context.Photo.Include("Category").Include("PhotoTags").Include("PhotoTags.Tag").OrderByDescending(d => d.PublishDate).ToListAsync();
+                Photos = await _context.Photo.Where(u => u.User.UserId == userId).Include("Category").Include("PhotoTags").Include("PhotoTags.Tag").OrderByDescending(d => d.PublishDate).ToListAsync();
             }
         }
     }

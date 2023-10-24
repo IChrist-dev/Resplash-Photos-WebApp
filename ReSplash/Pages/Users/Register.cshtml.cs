@@ -10,11 +10,15 @@ using ReSplash.Models;
 
 namespace ReSplash.Pages.Users
 {
-    public class CreateModel : PageModel
+    public class RegisterModel : PageModel
     {
-        private readonly ReSplash.Data.ReSplashContext _context;
+        private readonly ReSplashContext _context;
 
-        public CreateModel(ReSplash.Data.ReSplashContext context)
+        [BindProperty]
+        public User User { get; set; } = default!;
+
+        // Constructor
+        public RegisterModel(ReSplashContext context)
         {
             _context = context;
         }
@@ -22,24 +26,23 @@ namespace ReSplash.Pages.Users
         public IActionResult OnGet()
         {
             return Page();
-        }
-
-        [BindProperty]
-        public User User { get; set; } = default!;
-        
+        }        
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
-          if (!ModelState.IsValid || _context.User == null || User == null)
+            if (!ModelState.IsValid || _context.User == null || User == null)
             {
                 return Page();
             }
 
+            // Encrypt password
+            User.Password = BCrypt.Net.BCrypt.HashPassword(User.Password);
+
             _context.User.Add(User);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Users/Login");
         }
     }
 }

@@ -1,323 +1,327 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ReSplash.bundle.scp.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ReSplash.bundle.scp.css",
       "PackagePath": "staticwebassets\\ReSplash.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_13_02_57_49-luke_skywalker.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_13_02_57_49-luke_skywalker.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_13_02_57_49-luke_skywalker.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_13_12_43_51-yoda.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_13_12_43_51-yoda.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_13_12_43_51-yoda.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_13_12_45_00-yoda.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_13_12_45_00-yoda.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_13_12_45_00-yoda.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_13_12_47_26-han-solo.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_13_12_47_26-han-solo.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_13_12_47_26-han-solo.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_16_09_41_00-strawberry.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_16_09_41_00-strawberry.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_16_09_41_00-strawberry.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_16_09_53_09-leia_organa.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_16_09_53_09-leia_organa.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_16_09_53_09-leia_organa.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_16_09_54_25-tobias-pfeifer-hrS24V0f70U-unsplash.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_16_09_54_25-tobias-pfeifer-hrS24V0f70U-unsplash.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_16_09_54_25-tobias-pfeifer-hrS24V0f70U-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_16_09_54_47-antoine-rault-x67IZeAqFLE-unsplash.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_16_09_54_47-antoine-rault-x67IZeAqFLE-unsplash.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_16_09_54_47-antoine-rault-x67IZeAqFLE-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_16_09_55_46-evaldas-grizas-WsG6ZJEVb-I-unsplash.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_16_09_55_46-evaldas-grizas-WsG6ZJEVb-I-unsplash.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_16_09_55_46-evaldas-grizas-WsG6ZJEVb-I-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_26_48-luke_skywalker.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_26_48-luke_skywalker.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_17_09_26_48-luke_skywalker.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_28_06-karsten-winegeart-Nx8Qrhp1Nak-unsplash.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_28_06-karsten-winegeart-Nx8Qrhp1Nak-unsplash.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_17_09_28_06-karsten-winegeart-Nx8Qrhp1Nak-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_28_50-alesan-aboafash-FTUvMuj9x-I-unsplash.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_28_50-alesan-aboafash-FTUvMuj9x-I-unsplash.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_17_09_28_50-alesan-aboafash-FTUvMuj9x-I-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_29_20-lin-renais-LzxxJQoyna8-unsplash.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_29_20-lin-renais-LzxxJQoyna8-unsplash.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_17_09_29_20-lin-renais-LzxxJQoyna8-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_31_19-tim-oun-184d2gLGl60-unsplash.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_31_19-tim-oun-184d2gLGl60-unsplash.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_17_09_31_19-tim-oun-184d2gLGl60-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_32_27-olga-kudriavtseva-U-JsSWeKQ5c-unsplash.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_09_32_27-olga-kudriavtseva-U-JsSWeKQ5c-unsplash.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_17_09_32_27-olga-kudriavtseva-U-JsSWeKQ5c-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_10_11_39-dm-david-fuPZ7GmFB8k-unsplash.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_10_11_39-dm-david-fuPZ7GmFB8k-unsplash.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_17_10_11_39-dm-david-fuPZ7GmFB8k-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_10_13_24-dm-david-fuPZ7GmFB8k-unsplash.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_17_10_13_24-dm-david-fuPZ7GmFB8k-unsplash.jpg",
       "PackagePath": "staticwebassets\\photos\\2023_10_17_10_13_24-dm-david-fuPZ7GmFB8k-unsplash.jpg"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_20_12_42_15-dog.jfif",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_20_12_42_15-dog.jfif",
       "PackagePath": "staticwebassets\\photos\\2023_10_20_12_42_15-dog.jfif"
     },
     {
-      "Id": "C:\\Users\\W0480449\\Source\\Repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\banner_image.jpg",
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\2023_10_24_09_59_46-han-solo.jpg",
+      "PackagePath": "staticwebassets\\photos\\2023_10_24_09_59_46-han-solo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\W0480449\\source\\repos\\photos-in-class-project-IChrist-dev\\ReSplash\\wwwroot\\photos\\banner_image.jpg",
       "PackagePath": "staticwebassets\\photos\\banner_image.jpg"
     },
     {
