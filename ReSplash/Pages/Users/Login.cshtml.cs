@@ -36,9 +36,11 @@ namespace ReSplash.Pages.Users
 
             // Get user from database
             var dbUser = await _context.User.FirstOrDefaultAsync(u => u.Email == User.Email);
+            
             // If the user doesn't exist, return to the login page
             if (dbUser == null)
             {
+                ModelState.AddModelError("User.Email", "Username not found.");
                 return RedirectToPage("/Users/Register");
             }
 

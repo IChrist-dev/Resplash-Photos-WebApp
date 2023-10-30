@@ -11,7 +11,7 @@ namespace ReSplash.Pages.Users
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-            return Page();
+            return RedirectToPage("/Users/Login");
         }
     }
 }

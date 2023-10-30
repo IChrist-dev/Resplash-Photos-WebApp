@@ -55,8 +55,18 @@ body {
     position: relative;
 }
 
+.img-modal {
+
+}
+
 .pin-container .pin-box img {
     max-width: 100%;
+    cursor: zoom-in;
+}
+
+.pin-container .pin-box img:hover {
+    filter: brightness(75%);
+    transition: 0.3s;
 }
 
 @media (max-width: 922px) {
