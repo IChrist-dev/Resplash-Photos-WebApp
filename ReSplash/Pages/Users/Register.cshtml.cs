@@ -13,14 +13,19 @@ namespace ReSplash.Pages.Users
     public class RegisterModel : PageModel
     {
         private readonly ReSplashContext _context;
+        private readonly IConfiguration _configuration;
 
         [BindProperty]
         public User User { get; set; } = default!;
 
+        [BindProperty]
+        public string Token { get; set; } = string.Empty;
+
         // Constructor
-        public RegisterModel(ReSplashContext context)
+        public RegisterModel(ReSplashContext context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
 
         public IActionResult OnGet()
@@ -33,6 +38,13 @@ namespace ReSplash.Pages.Users
         {
             if (!ModelState.IsValid || _context.User == null || User == null)
             {
+                return Page();
+            }
+
+            // Validate token
+            if(Token != _configuration["Token"].ToString())
+            {
+                ModelState.AddModelError("Token", "Invalid Token");
                 return Page();
             }
 

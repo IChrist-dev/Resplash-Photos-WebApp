@@ -53,6 +53,12 @@
                 <input asp-for="User.Bio" class="form-control" />
                 <span asp-validation-for="User.Bio" class="text-danger"></span>
             </div>
+
+            <div class="mb-3">
+                <label asp-for="Token" class="control-label"></label>
+                <input type="password" asp-for="Token" class="form-control" />
+                <span asp-validation-for="Token" class="text-danger"></span>
+            </div>
             <div class="mb-3">
                 <input type="submit" value="Register" class="btn btn-primary" />
             </div>
