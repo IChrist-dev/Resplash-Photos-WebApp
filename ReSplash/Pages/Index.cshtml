@@ -12,7 +12,7 @@
         string imagePath = "/photos/" + item.FileName;
 
         <div class="pin-box">
-            <img id="image-thumbnail" src="@imagePath" class="mb-2" data-bs-toggle="modal" data-bs-target="#photoModal" data-bs-photo="@imagePath" onclick="displayImage(this)" />
+            <img id="image-thumbnail" src="@imagePath" class="mb-2" data-bs-toggle="modal" data-bs-target="#photoModal" data-bs-photo="@item.PhotoId" onclick="displayImage(this)" />
         </div>
         
     }
@@ -27,7 +27,15 @@
             </div>
             
             <div class="modal-body text-center">
-                <img src="" id="img-modal" class="img-fluid" />
+                <img src="" id="modal-img" class="img-fluid" />
+
+                <div id="modal-createdby"></div>
+
+                <div id="modal-description"></div>
+
+                <div id="modal-category"></div>
+
+                <div id="modal-tags"></div>
             </div>
             
         </div>

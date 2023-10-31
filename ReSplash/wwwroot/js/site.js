@@ -8,10 +8,26 @@ $("#photoModal").on('show.bs.modal', function (event) {
     const btnImage= event.relatedTarget
 
     // Get the photo url from data-bs-* attribute
-    const url = btnImage.getAttribute('data-bs-photo')
+    const photoId = btnImage.getAttribute('data-bs-photo')
 
-    // Switch the image
-    const modalImg = photoModal.querySelector('#img-modal')
-    modalImg.src = url
+    const apiUrl = 'photo/get/' + photoId;
+
+    $.get(apiUrl, function (photo) {
+        // Switch the image
+        const photoUrl = '/photos/' + photo.fileName;
+        $('#modal-img').attr('src', photoUrl)
+
+        // Set values for other fields
+        $('#modal-createdby').text('Created by: ' + photo.createdBy)
+
+        $('#modal-description').text(photo.description)
+
+        $('#modal-category').text('Category: ' + photo.category)        
+
+        const tags = photo.tags
+        const strTags = tags.join(', ')
+        $('modal-tags').text('Tags: ' + strTags)
+                
+    })
 
 });

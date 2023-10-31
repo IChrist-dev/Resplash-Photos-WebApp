@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using ReSplash.Data;
 using ReSplash.Models;
+using ReSplash.ViewModels;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -50,13 +51,22 @@ app.MapRazorPages();
 app.MapGet("/photo/get/{id}", (int id, ReSplashContext _context) =>
 {
     Photo? photo = _context.Photo
-    //.Include("User").Include("Category").Include("PhotoTags").Include("PhotoTags.Tag")
+    .Include("User").Include("Category").Include("PhotoTags").Include("PhotoTags.Tag")
     .Where(m => m.PhotoId == id)
     .SingleOrDefault();
 
     if(photo != null)
     {
-        return Results.Json(photo);
+        ModalViewModel viewModal = new ModalViewModel();
+        viewModal.PhotoId = photo.PhotoId;
+        viewModal.FileName = photo.FileName;
+        viewModal.PublishDate = photo.PublishDate;
+        viewModal.Description = photo.Description;
+        viewModal.CreatedBy = photo.User.Handle;
+        viewModal.Category = photo.Category.CategoryName;
+        viewModal.Tags = photo.PhotoTags.Select(t => t.Tag.TagName).ToList();
+
+        return Results.Json(viewModal);
     }
     else
     {
